@@ -1,0 +1,36 @@
+{
+  "id": "220124124808622_CHT_56000_s0001",
+  "events": [events]
+  "date_created": "2022-01-24 20:16:19.2600000 +00:00",
+  "duration": 22017,
+  "bot_id": "CHT_56000",
+  "sync_offset": 1,
+  "from": {
+    "type": 2
+  },
+  "to": {
+    "type": 2
+  },
+  "rasa_version": "2.8.1",
+  "interaction_id": "220124124808622_CHT_56000",
+  "event_count": 42,
+  "started_at_tz": "24/1/2022 12:48:08",
+  "ended_at_tz": "24/1/2022 12:48:30",
+  "model_trained_at": "2022-01-24 20:16:17.0000000",
+  "model_file": "20220124-201619.tar.gz",
+  "counts_as": 0,
+  "started_at": "24/1/2022 12:48:08",
+  "ended_at": "2022-01-24 20:16:19.2600000 +00:00",
+  "slots": {
+    "user.name": "Turu",
+    "user.mail": "Turu@myserver.com",
+    "user.channel": "11",
+    "user_name": "",
+    "user_email": null,
+    "user_dni": null,
+    "turnos_opcion": null,
+    "turnos_sector": null,
+    "turnos_localidad": null,
+    "requested_slot": null,
+    "session_started_metadata": null
+  }

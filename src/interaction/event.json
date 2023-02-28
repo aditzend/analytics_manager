@@ -1,0 +1,54 @@
+{
+  "id": "220124124808622_CHT_56000_s0001_e00001",
+  "interaction_id": "220124124808622_CHT_56000",
+  "segment_id": "220124124808622_CHT_56000_s0001",
+  "created_at": "2020-11-20T14:00:00.0000000+00:00",
+  "text": "hola",
+  "nlps": [
+  "intent_name": "Saludar_Base",
+  "intent_confidence": 0.99999,
+  "intent_level_1": "Base",
+  "intent_level_2": "Saludar",
+  "intent_level_3": "",
+  "intent_level_4": "",
+  "model_responses": [
+    {
+      "rasa_sender_id": "220124124808622_CHT_56000",
+      "rasa_message_id": "220124124808622_CHT_56000_s0001_e00001",
+      "rasa_timestamp": "2020-11-20T14:00:00.0000000+00:00",
+      "timestamp": "2020-11-20T14:00:00.0000000+00:00",
+      "intent_ranking": [
+        {
+          "name": "greet",
+          "confidence": 0.99999
+        },
+        {
+          "name": "goodbye",
+          "confidence": 0.00001
+        }
+      ]
+    }
+  ], // puede haber más de una respuesta
+  "sentiment": {
+    "score": 0.1,
+    "value": "POSITIVE"
+  },
+  "topic": {
+    "value": "General",
+    "score": 0.01
+  },
+
+  "type_short": "MSG",
+  "type_long": "Message",
+  "entities": [
+    {
+      "entity": "greet",
+      "value": "hola",
+      "start": 0,
+      "end": 2,
+      "confidence": 0.99999,
+      "extractor": "DIETClassifier"
+    }
+  ]
+]
+}

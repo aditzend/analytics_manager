@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "pipeline": "CAMPAIGN",
+  "last_update": "20221215T16:00:00Z",
+  "model_version": "20221215.tar.gz",
+  "model_name": "banbif",
+
+  "version_history": [
+    {
+      "version": 1,
+      "pipeline": "CAMPAIGN",
+      "last_update": "20221214T16:00:00Z",
+      "model_version": "20221214.tar.gz",
+      "model_name": "banbif"
+    }
+  ]
+}
